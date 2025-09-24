@@ -2,3 +2,4 @@ sources.txt
 airflow-localproj-setup.7z
 airflow-proj.7z
 airflow-localproj-setup/
+api_config.json
