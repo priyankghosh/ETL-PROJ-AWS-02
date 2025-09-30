@@ -7,21 +7,13 @@ This project sets up a local Apache Airflow environment using Docker Compose to 
 ## 🗂️ Project Structure
 
 ```
-airflow-localproj-setup/
-  ├── dags/
-  │   ├── etl_pipeline_01.py
-  │   ├── simple_dag.py
-  │   └── response_data_*.json
-  ├── docker-compose.yml
-  ├── .env
-  ├── Clean Restart.md
-  ├── Steps.md
-  ├── Updated Commands to run.md
-api_config.json
-copyRawJSONFile-lambdaFunc.py
-etl_pipeline_01.py
-transformation-convert-to-csv-lambdaFunc.py
-README.md
+ETL-PROJ-AWS-01/
+├── .gitignore
+├── Arch_Flow.PNG
+├── copyRawJSONFile-lambdaFunc.py
+├── etl_pipeline_01.py
+├── README.md
+└── transformation-convert-to-csv-lambdaFunc.py
 ```
 
 ---
@@ -64,6 +56,12 @@ It performs the following steps:
 
 3. **Load:**  
    Final CSV/JSON files are saved in the `dags/` folder for downstream use.
+
+---
+
+## Architecture Diagram
+
+![arch-dagram](./Arch_Flow.PNG)
 
 ---
 
