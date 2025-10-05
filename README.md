@@ -1,4 +1,4 @@
-# Airflow Local ETL Project
+# ETL Project on AWS
 
 This project sets up a local Apache Airflow environment using Docker Compose to orchestrate ETL pipelines for extracting data from APIs, transforming it, and saving results as CSV/JSON files.
 
